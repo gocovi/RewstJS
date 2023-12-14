@@ -21,6 +21,10 @@ Use this project and workflow to run raw JavaScript directly in Azure Functions.
 
 # Usage
 
-1. In a test work add the `Run JavaScript` subworkflow as an action.
+1. Open the `Run JavaScript` workflow and click Test.
 1. For script content, enter `return { "foo": "bar" }`.
 1. See your result in `RESULT.result`.
+
+# Packages
+
+If you wish to use any packages, you'll need to install them yourself in your forked project with `npm`. 
