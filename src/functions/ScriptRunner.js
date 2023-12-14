@@ -28,6 +28,7 @@ app.http('run', {
             // Get the entire exception as a string
             return {
                 body: JSON.stringify({ error: error.toString() }),
+                status: 400,
                 headers: {
                     'Content-Type': 'application/json'
                 }
